@@ -6,7 +6,7 @@ echo "SIAPA TEMAN FAVORITE MU?";
 echo "<br />";
 
 print_r($kelas12rpl);
-
+9
 echo "<br />";
 echo "<hr />";
 
