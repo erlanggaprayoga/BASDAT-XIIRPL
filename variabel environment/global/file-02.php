@@ -6,4 +6,4 @@ echo "Nama: {$nama} <br><br>";
 // bahkan kita juga bisa mengubah isi dari variabel
 // yang dideklarasikan di file yang lain
 
-$nama .= ' bin Zakariyya';
+$nama .= ' sangat baik';
