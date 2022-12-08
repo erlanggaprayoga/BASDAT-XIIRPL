@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Membuat Form Input Biodata PHP</title>
+    <style>
+        div {padding: 4px};
+    </style>
+</head>
+<body>
+    <h1>Formulir Pendaftaran</h1>
+        <form action="hasil.php" method="POST" enctype="multipart/form-data">
+            <div>
+                <label>Nama :</label> <br>
+                <input name="nama" type="text">
+            </div>
+            <div>
+                <label>Jurusan :</label> <br>                
+                <input name="jurusan" value="RPL" type="radio">RPL<br>
+                <input name="jursuan" value="AKN" type="radio">AKL<br>
+                <input name="jursuan" value="AKN" type="radio">OTKP<br>
+                <input name="jursuan" value="AKN" type="radio">BDP<br>
+            </div>
+            <div>
+                <label>Nama Ayah :</label> <br>
+                <input name="nama_ayah" type="text">
+            </div>
+            <div>
+                <label>Nama Ibu :</label> <br>
+                <input name="nama_ibu" type="text">
+            </div>
+            <div>
+                <label>Alamat :</label> <br>
+                <input name="alamat" type="text">
+            </div>
+            <div tyle="margin-top:10px">
+                <label>foto </label>
+                <input type="file" name="foto">
+            </div>
+            <div>
+                <input type="submit" value="Simpan">
+            </div>
+        </form>
+</body>
+</html>
