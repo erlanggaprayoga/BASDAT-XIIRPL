@@ -1,0 +1,45 @@
+body {
+    background-image: url(login.jpg);
+}
+
+.login {
+    margin-left: 450px;
+    margin-top: 200px;
+    width: 450px;
+    height: 300px;
+    background-color: whitesmoke;
+    opacity: 1;
+    border: 3px solid white;
+    color: blue;
+}
+
+.login h1 {
+    opacity: 1;
+    margin-left: 120px;
+    color: black;
+    margin-top: 90px;
+}
+
+input {
+    opacity: 1;
+    padding: 5px;
+    caret-color: blue;
+}
+
+.login td {
+    color: blue;
+    font-size: 15px;
+    opacity: 1;
+}
+
+img {
+    opacity: 0.4;
+    margin-left: 630px;
+    margin-top: -300px;
+    width: 100px;
+}
+
+a {
+    color: green;
+}
+

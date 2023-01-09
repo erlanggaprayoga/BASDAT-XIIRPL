@@ -1,0 +1,33 @@
+body {
+    background-image: url(bg-admin.jpg);
+}
+
+.admin {
+    border: 3px dotted brown;
+    border-radius: 10px;
+    background-color: transparent;
+    opacity: 1;
+    margin-top: 240px;
+    margin-left: 450px;
+    width: 410px;
+    height: 240px;
+}
+
+.admin h1 {
+    color: red;
+    margin-left: 90px;
+    text-decoration: underline;
+}
+
+input {
+    padding: 10px;
+    caret-color: red;
+}
+
+td {
+    color: red;
+}
+
+a {
+    color: blue;
+}
