@@ -9,9 +9,10 @@ $judul_buku = $_POST['judul_buku'];
 $pengarang = $_POST['pengarang'];
 $thn_terbit = $_POST['thn_terbit'];
 $penerbit = $_POST['penerbit'];
+$harga = $_POST['harga'];
 
 // menginput database
-$input = mysqli_query($koneksi,"UPDATE buku SET id_katalog='$id_katalog',judul_buku='$judul_buku',pengarang='$pengarang',thn_terbit='$thn_terbit',penerbit='$penerbit' WHERE id_buku='$id_buku' ");
+$input = mysqli_query($koneksi,"UPDATE buku SET id_katalog='$id_katalog',judul_buku='$judul_buku',pengarang='$pengarang',thn_terbit='$thn_terbit',penerbit='$penerbit',harga='$harga' WHERE id_buku='$id_buku' ");
 
 // Mengembalikan ke halaman awal
 if($input){
