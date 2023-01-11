@@ -17,7 +17,7 @@ if($input){
     ?>
     <script>
         alert('data berhasil');
-        window.location = "index.php"
+        window.location = "login_admin.php"
     </script>
 
     <script>

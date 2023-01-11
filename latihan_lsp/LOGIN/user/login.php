@@ -24,6 +24,7 @@
                     <td><input type="submit" value="LOGIN"></td>
                 </tr>
                 <td>Kembali Ke <a href="../index.php">Halaman Utama</a> </td>
+                <td>Belum Punya Akun? Daftar <a href="daftar.php">disini</a> </td>
             </table>
         </form>
     </div>
